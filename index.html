@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FAVICON -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ICONES -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portifolio Luan</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="" class="nav__logo">Luan</a>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class='bx bx-user'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bx-book'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class='bx bxs-briefcase-alt-2'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class='bx bxs-message-square-detail'></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- MODO NOTURNO -->
+      <i class='bx bx-moon change-theme' id="theme-button"></i>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">
+            Olá, Eu sou
+          </span>
+          <h1 class="home__name">Luan Calil</h1>
+          <h3 class="home__education">Ux Designer</h3>
+
+          <div class="home__buttons">
+            <a download="" href="assets/curriculo.pdf" class="button button--ghost">Download CV</a>
+
+            <a href="#about" class="button">Sobre mim</a>
+          </div>
+        </div>
+
+        <div class="home__handle">
+          <img src="assets/foto-perfil-sf.png" alt="" class="home__img">
+        </div>
+
+        <div class="home__social">
+          <a href="https://www.linkedin.com/in/luancalil/" target="_blank" class="home__social-link">
+            <i class='bx bxl-linkedin-square'></i>
+          </a>
+
+          <a href="https://github.com/luancalil" target="_blank" class="home__social-link">
+            <i class='bx bxl-github'></i>
+          </a>
+
+          <a href="https://www.instagram.com/calilluan/?hl=pt-br" target="_blank" class="home__social-link">
+            <i class='bx bxl-instagram'></i>
+          </a>
+
+        </div>
+
+        <a href="#about" class="home__scroll">
+          <i class='bx bx-mouse home__scroll-icon'></i>
+          <span class="home__scroll-name">Scroll Down</span>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <span class="section__subtitle">Minha Introdução</span>
+      <h2 class="section__title">Sobre mim</h2>
+
+      <div class="about__container container grid">
+        <img src="assets/foto-perfil.jpg" alt="" class="about__img">
+        <div class="about__data">
+          <div class="about__info">
+
+
+            <div class="about__box">
+              <i class='bx bxs-award about__icon'></i>
+              <h3 class="about__title">+2 anos </h3>
+              <span class="about__subtitle"> de Experiência</span>
+            </div>
+
+            <div class="about__box">
+              <i class='bx bx-briefcase-alt about__icon'></i>
+              <h3 class="about__title">+20 projetos </h3>
+              <span class="about__subtitle">Concluídos </span>
+            </div>
+
+            <div class="about__box">
+              <i class='bx bx-happy about__icon'></i>
+              <h3 class="about__title">+10 Clientes </h3>
+              <span class="about__subtitle"> Satisfeitos</span>
+            </div>
+          </div>
+
+          <p class="about__description">
+            Ux Designer, Desenvolvedor Front-end e mentor nas horas vagas. Desenvolvo o processo de UX/Ui para gerar a
+            melhor experiência para os usuários e que seja de agradavel utilização.
+          </p>
+          <a href="#contact" class="button">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <span class="section__subtitle">Habilidades</span>
+      <h2 class="section__title">Minhas Experiências</h2>
+
+      <div class="skills__container container grid">
+        <div class="skills__content">
+          <h3 class="skills__title">Ux Designer</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">Pesquisa com usuários</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">Benchmarking </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">Ui Designer </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    Prototipação
+                  </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    Testes de Usabilidade
+                  </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    Hands Off
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__content">
+          <h3 class="skills__title">Desenvolvedor Front-end</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">CSS/SASS </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">Boostrap </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    Javascript
+                  </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    React
+                  </h3>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class='bx bxs-badge-check'></i>
+
+                <div>
+                  <h3 class="skills__name">
+                    Angular
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section">
+      <span class="section__subtitle">Serviços</span>
+      <h2 class="section__title">Posso te ajudar em:</h2>
+
+      <div class="services__container container grid">
+        <div class="services__card">
+          <h3 class="services__title">Ux <br> Designer</h3>
+
+          <span class="services__button">Saiba mais
+            <i class='bx bx-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+              <h3 class="services__modal-title">Ux Designer</h3>
+              <p class="services__modal-description">Trabalho com mais de 2 anos de experiência.Oferecendo um trabalho
+                de qualidade para clientes e empresas.</p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I develop the user interface.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">Web page development.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I create ux element interactions.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I position your company brand.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h3 class="services__title">Ui <br> Designer</h3>
+
+          <span class="services__button">Saiba mais
+            <i class='bx bx-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+              <h3 class="services__modal-title">Ui <br> Designer</h3>
+              <p class="services__modal-description">Trabalho com mais de 2 anos de experiência.Oferecendo um trabalho
+                de qualidade para clientes e empresas.</p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I develop the user interface.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">Web page development.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I create ux element interactions.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I position your company brand.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">
+
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="services__card">
+          <h3 class="services__title">Desenvolvimento <br> Front-end </h3>
+
+          <span class="services__button">Saiba mais
+            <i class='bx bx-right-arrow-alt services__icon'></i>
+          </span>
+
+          <div class="services__modal">
+            <div class="services__modal-content">
+              <i class='bx bx-x services__modal-close'></i>
+              <h3 class="services__modal-title">Desenvolvimento <br> Front-end</h3>
+              <p class="services__modal-description">Trabalho com mais de 2 anos de experiência.Oferecendo um trabalho
+                de qualidade para clientes e empresas.</p>
+
+              <ul class="services__modal-list">
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I develop the user interface.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">Web page development.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I create ux element interactions.
+
+                  </p>
+                </li>
+
+                <li class="services__modal-item">
+                  <i class='bx bx-check services__modal-icon'></i>
+                  <p class="services__modal-info">I position your company brand.
+
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+
+    <section class="work section" id="work">
+      <span class="section__subtitle">
+        Portifolio
+      </span>
+      <h2 class="section__title">Trabalhos Recentes</h2>
+
+      <div class="work__filters">
+        <span class="work__item active-work" data-filter='all'>Todos</span>
+        <span class="work__item" data-filter='.web'>Web</span>
+        <span class="work__item" data-filter='.ux'>Ux</span>
+        <span class="work__item" data-filter='.ui'>Ui</span>
+      </div>
+
+      <div class="work__container container grid">
+        <div class="work__card mix ux">
+          <img src="assets/perfil.png" alt="" class="work__img">
+          <h3 class="work__title">Bora Festejar</h3>
+          <a href="" class="work__button">Saiba mais <i class='bx bx-right-arrow-alt work__icon'></i>
+          </a>
+        </div>
+
+        <div class="work__card mix ui">
+          <img src="assets/perfil.png" alt="" class="work__img">
+          <h3 class="work__title">Yattó</h3>
+          <a href="" class="work__button">Saiba mais <i class='bx bx-right-arrow-alt work__icon'></i>
+          </a>
+        </div>
+
+        <div class="work__card mix ux">
+          <img src="assets/perfil.png" alt="" class="work__img">
+          <h3 class="work__title">Movvme</h3>
+          <a href="" class="work__button">Saiba mais <i class='bx bx-right-arrow-alt work__icon'></i>
+          </a>
+        </div>
+
+        <div class="work__card mix ui">
+          <img src="assets/perfil.png" alt="" class="work__img">
+          <h3 class="work__title">Agronomo Digital </h3>
+          <a href="" class="work__button">Saiba mais <i class='bx bx-right-arrow-alt work__icon'></i>
+          </a>
+        </div>
+
+        <div class="work__card mix ui">
+          <img src="assets/perfil.png" alt="" class="work__img">
+          <h3 class="work__title">Global Financeiro</h3>
+          <a href="" class="work__button">Saiba mais <i class='bx bx-right-arrow-alt work__icon'></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <span class="section__subtitle">Entre em Contato</span>
+      <h2 class="section__title">Me manda uma mensagem</h2>
+
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h3 class="contact__title">Fale comigo</h3>
+
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class='bx bxl-gmail contact__card-icon'></i>
+              <h3 class="contact__card-title">Email</h3>
+              <span class="contact__card-data">luancalil3@gmail.com</span>
+
+              <a href="mailto:luancalil3@gmail.com" class="contact__button" target='_blank'>Me escreva <i
+                  class='bx bx-right-arrow-alt contact__button-icon'></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class='bx bxl-whatsapp contact__card-icon'></i>
+              <h3 class="contact__card-title">Whatsapp</h3>
+              <span class="contact__card-data">(31) 99459-0822</span>
+
+              <a href="https://api.whatsapp.com/send?phone=31994590822&text=Oi, quero saber mais sobre seu trabalho em Ux!"
+                class="contact__button" target='_blank'>Me escreva <i
+                  class='bx bx-right-arrow-alt contact__button-icon'></i>
+              </a>
+            </div>
+
+            <div class="contact__card">
+              <i class='bx bxl-linkedin-square contact__card-icon'></i>
+              <h3 class="contact__card-title">Linkedin</h3>
+              <span class="contact__card-data">/luancalil</span>
+
+              <a href="https://www.linkedin.com/in/luancalil/" class="contact__button" target='_blank'>Me escreva <i
+                  class='bx bx-right-arrow-alt contact__button-icon'></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Luan</h1>
+
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">Sobre mim</a>
+        </li>
+
+        <li>
+          <a href="#work" class="footer__link">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="footer__link">Contato</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="https://www.linkedin.com/in/luancalil/" class="footer__social-link">
+          <i class='bx bxl-linkedin-square'></i>
+        </a>
+
+        <a href="https://github.com/luancalil" target="_blank" class="footer__social-link">
+          <i class='bx bxl-github'></i>
+        </a>
+        </a>
+        <a href="https://www.instagram.com/calilluan/" class="footer__social-link">
+          <i class='bx bxl-instagram'></i>
+        </a>
+
+
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Luan Calil. Todos direito rezervados.
+      </span>
+    </div>
+  </footer>
+
+
+
+
+  <!-- SCROLL -->
+
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!-- SWIPE -->
+
+  <!-- MIXITUP FILTER -->
+  <script src="js/mixitup.min.js"></script>
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
